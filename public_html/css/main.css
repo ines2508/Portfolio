@@ -1,0 +1,301 @@
+/* general settings */
+*, body, div, p, img, a, ul,li  {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+p, a { 
+    font-size: 76%;
+    font-family: 'edelsans', 'Champagne & Limousines', sans-serif;
+    font-size: 0.9em;
+}
+div {
+    display: block;
+}
+
+/* mobile - up to 768px */
+@media all and (max-width:767px) {
+body {
+    margin-top: 52px}
+.h1custom {
+   font-size: 0.65em; 
+   font-family: 'Balham', serif;
+   padding: 7px 0px 0px 0px;
+   color: #917840;
+} 
+.h2custom {
+    font-size: 1.2em;
+    font-family: 'Balham', serif;
+    padding: 7px 0 0 5px;
+    color: #062152;
+}
+.headercustom {
+    letter-spacing: -0.1em;
+    font-size: 1.8em;   
+}
+.navbar {
+    padding: .15rem 1rem;
+}
+.page-heade-mobile {
+    display:block;}
+.page-header-screen {
+    display: none;}
+.mottoBird {display: none;}
+.h2bird {display: none;}
+.imgwrapper {
+    background: url("../img/bird_xs_02.jpg") no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: compact;
+    min-height: 180px;
+    
+}
+.undermotto {
+    padding: 22px 20px 20px 20px;}
+
+.undermotto p{ 
+    line-height: 150%;
+    font-size: 0.8em;
+}
+.undermotto a{
+    padding: 0px 0 0 0px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8em;    
+}
+.sSocial {padding: 10px 0 0 0px}
+ }
+.sGallery {display:none;}
+
+/* tablet */
+@media all and (min-width:768px) and (max-width:1024px) {
+body {margin-top: 142px}
+.h1custom, .h2bird {
+    font-size: 1.9em;
+    font-family: 'Balham', serif;
+    color: #062152;
+    padding-bottom: 10px;
+    padding: 22px;
+ }
+.headercustom {
+    letter-spacing: -0.1em;
+    font-size: 1.3em;   
+}
+.navbar {
+    padding: .3rem .1rem;
+}
+.page-heade-mobile {display:none;}
+.page-header-screen {background-color: white; display: block;}
+.pbird {
+    background-color: rgb(248, 249, 250);
+    background-color: rgba(248, 249, 250, .8);
+    font-family: 'Balham', serif;
+    font-size: 1.1em;
+    padding: 20px 0px 25px 30px;
+    color: #917840;
+    text-align: justify;
+    line-height: 180%;
+    border-radius: 5px;
+}
+.h2bird {
+    display: block;
+    color:white;
+    padding: 25px 0 15px 0px;
+    text-align: left;
+}
+.imgwrapper {display: none}
+
+.navbar-light .navbar-nav .nav-link, a  {
+    padding-left: 25px;
+    padding-right: 19px;
+    font-size: 0.8em;
+} 
+.undermotto {
+    padding: 20px 30px 20px 30px;
+}
+.undermotto p{ 
+    text-align: left;
+    font-size: 0.75em;
+}
+
+.sSocial {padding: 0px 0 0 0px}
+.sGallery {display:none;}
+.mottoBird {
+    background: url("../img/bird_01.jpg") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    padding: 50px 0 70px 290px; 
+}
+a.undermottoContact {
+    color: #e4e5e5;
+    padding: 0px 0 0 0px;
+    font-size: 0.9em;
+}
+a.undermottoContact:hover {
+    color: white;
+}
+}
+
+/* desktop */
+@media screen and (min-width:1025px) {
+    body {margin-top: 155px}
+    .h1custom, .h2bird {
+    font-size: 2em;
+    font-family: 'Balham', serif;
+    color: #062152;
+    padding-bottom: 18px;
+    padding-top: 18px;
+   }
+.headercustom {
+    letter-spacing: -0.1em;
+    font-size: 1.5em;
+  
+}
+.page-heade-mobile {display:none;}
+.page-header-screen {background-color: white; display: block;}
+.navbar {
+    padding: .3rem 1rem;
+}
+
+.sGallery {display: block}
+.pbird {
+    background-color: rgb(248, 249, 250);
+    background-color: rgba(248, 249, 250, .8);
+    font-family: 'Balham', serif;
+    font-size: 1.3em;
+    padding: 25px 0px 30px 45px;
+    color: #917840;
+    text-align: justify;
+    word-spacing: 1px;
+    line-height: 180%;
+    border-radius: 5px;
+}
+.h2bird {
+    color:white;
+    padding: 0 0 20px 0px;
+    text-align: left;
+    display: block;}
+.imgwrapper {display: none}
+
+.navbar-light .navbar-nav .nav-link, a  {
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 0.8em;
+}
+.undermotto {
+    padding: 28px 30px 20px 30px;}
+.undermotto p{ 
+    text-align: left;
+    padding-left: 10px;
+}
+.undermottoQ {
+    padding: 10px 0 0 0px;
+}
+.undermotto a{
+    padding: 0px 0 0 0px;}
+.mottoBird {
+    background: url("../img/bird_01.jpg") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;  
+    padding: 60px 0 70px 370px;
+}
+a.undermottoContact {
+    color: #e4e5e5;
+}
+a.undermottoContact:hover {
+    color: white;
+}
+}
+/* ALL */
+/* header all */
+
+.navbar-light .navbar-toggler {
+    border-color: #ece6e0;
+    
+}
+/* kerning h2 */
+.h2bird::first-letter {
+    letter-spacing: -0.05em;
+    font-size: 1.4em;
+    font-family: 'Balham', serif;  
+}
+.h3custom {
+    padding: 30px;
+    font-size: 1.2em;
+    font-family: 'edelsans', serif;
+}
+
+li.nav-item.active {
+    color: #062152;
+    background-color: #e4e5e5;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color:  #062152;
+}
+.navbar-light .navbar-nav .nav-link, a {
+    color:#917840;
+    text-transform: uppercase;
+}
+.navbar-light:hover .navbar-nav:hover .nav-link:hover, a:hover {
+    color:#062152;
+}
+
+.undermotto {
+    background: rgb(201,185,169);
+    background: -webkit-linear-gradient(rgb(201, 185, 169), rgb(172, 145, 120));
+    background: -o-linear-gradient(rgb(201, 185, 169), rgb(172, 145, 120));
+    background: -moz-linear-gradient(rgb(201, 185, 169), rgb(172, 145, 120));
+    background: linear-gradient(rgb(201, 185, 169), rgb(172, 145, 120));
+    width: 100%;
+}
+
+.sGallery img {
+opacity: 0.20;
+filter: alpha(opacity=20);
+-webkit-filter: grayscale(90%);
+-moz-filter:grayscale(90%);
+-o-filter: grayscale(90%);
+-ms-filter: grayscale(90%);
+filter: grayscale(90%);
+  border-radius: 5px;
+}
+.sGallery img:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -webkit-filter: grayscale(80%);
+-moz-filter:grayscale(80%);
+-o-filter: grayscale(80%);
+-ms-filter: grayscale(80%);
+filter: grayscale(80%);
+}
+.sSocial img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.sSocial img:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.undermottoQ {
+     color:#917840;
+}
+
+
